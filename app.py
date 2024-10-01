@@ -13,7 +13,7 @@ screen.tracer(0, 0)
 # Parameters for the pendulum
 G = 1  # Gravitational constant
 L1 = 200  # Length of the first pendulum arm
-L2 = 200  # Length of the second pendulum arm
+L2 = 150  # Length of the second pendulum arm
 M1 = 10   # Mass of the first pendulum
 M2 = 10   # Mass of the second pendulum
 
@@ -80,7 +80,7 @@ def draw_pendulum():
     
     # Trace the path of the second pendulum
     trace.goto(x2, y2)
-    trace.pendown()
+    # trace.pendown() 
 
 # Main loop to update and draw the pendulum
 def simulate():
